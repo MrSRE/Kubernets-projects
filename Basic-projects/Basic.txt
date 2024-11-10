@@ -1,0 +1,19 @@
+Beginner Level: Setting Up the Foundation
+
+1. Kubernetes Basics
+   - Objective: Set up a basic Kubernetes cluster on your local machine.
+   - Steps:
+     - Install Minikube or Kind (Kubernetes in Docker) for local Kubernetes clusters.
+     - Get familiar with `kubectl` commands (e.g., `kubectl get`, `kubectl describe`, `kubectl apply`).
+     - Create simple YAML files for Pods, Services, and Deployments.
+   - Outcome: Successfully deploy a single-container application (e.g., Nginx or a simple Node.js app) on the Kubernetes cluster.
+
+2. Basic Service Deployment
+   - Objective: A microservice based application is provided to you.
+	Project: https://github.com/UnpredictablePrashant/Slab.ai.git
+   - Steps:
+     - Write a simple REST API for listing products (e.g., using Node.js or Python).
+     - Create Docker images for the application.
+     - Expose the service with a LoadBalancer or NodePort Service.
+   - Outcome: Access the Product Catalog service via a public URL or IP.
+
